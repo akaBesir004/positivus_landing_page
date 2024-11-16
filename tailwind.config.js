@@ -11,6 +11,9 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      maxWidth: {
+        'custom': '1200px', // Dodaj svoju vrijednost
+      },
     },
   },
   plugins: [],
