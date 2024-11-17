@@ -8,8 +8,8 @@ const Header = () => {
     <div className="max-w-screen-xl mx-auto flex justify-between items-center  lg:px-16 px-8  lg:gap-24 py-4 bg-white">
      
       <div className="flex items-center space-x-2">
-        <img src="/logo.png" alt="Logo" className="h-8 w-8" />
-        <h1 className="text-2xl font-bold">Positivus</h1>
+        <img src="images/logo.jpg" alt="Logo" className="h-8 w-8" />
+        <h1 className="text-2xl font-medium">Positivus</h1>
       </div>
 
     

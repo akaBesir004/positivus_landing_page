@@ -15,202 +15,185 @@ const Team = () => {
       </div>
 
       <div className="py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
-     
+        <div className="max-w-sm mx-auto border-t-2 border-l-2 border-r-2 border-b-4 p-10 rounded-3xl border-black">
+          <div className="flex flex-row justify-between gap-2">
+            {/* Slika */}
+            <Image
+              src="/images/janeDoe.jpg"
+              alt="Jane Doe"
+              width={100}
+              height={100}
+            />
 
-          <div className="max-w-sm mx-auto border-t-2 border-l-2 border-r-2 border-b-4 p-10 rounded-3xl border-black">
-            <div className="flex flex-row items-center justify-between gap-2 ">
-              <Image
-                src="/images/janeDoe.jpg"
-                alt="Jane Doe"
-                width={100}
-                height={100}
-              />
-
-              <div className="flex flex-col justify-end">
-                <p className="font-semibold text-lg ">Jane Doe</p>
-                <p className="text-sm text-gray-600 ">CEO and Founder</p>
-              </div>
-
-              <div className="">
-                <Image
-                  src="/images/janeDoe.jpg"
-                  alt="Logo"
-                  width={30}
-                  height={30}
-                />
-              </div>
+            {/* Tekst */}
+            <div className="flex flex-col justify-end">
+              <p className="font-semibold text-lg">Jane Doe</p>
+              <p className="text-sm text-gray-600">CEO and Founder</p>
             </div>
 
-            <hr className="my-4 border-t-4 border-gray-500" />
-
-            <p className="text-lg text-gray-700">
-              7+ years of experience in project management and team leadership.
-              Strong organizational and communication skills.
-            </p>
+            {/* Logo */}
+            <div className="flex self-start">
+              <Image src="/images/in.jpg" alt="Logo" width={30} height={30} />
+            </div>
           </div>
-        
 
-          <div className="max-w-sm mx-auto border-t-2 border-l-2 border-r-2 border-b-4 p-10 rounded-3xl border-black">
-            <div className="flex flex-row items-center justify-between gap-2 ">
-              <Image
-                src="/images/janeDoe.jpg"
-                alt="Jane Doe"
-                width={100}
-                height={100}
-              />
+          <hr className="my-4 border-t-4 border-gray-500" />
 
-              <div className="flex flex-col justify-end">
-                <p className="font-semibold text-lg ">Jane Doe</p>
-                <p className="text-sm text-gray-600 ">CEO and Founder</p>
-              </div>
+          <p className="text-lg text-gray-700">
+            7+ years of experience in project management and team leadership.
+            Strong organizational and communication skills.
+          </p>
+        </div>
 
-              <div className="">
-                <Image
-                  src="/images/janeDoe.jpg"
-                  alt="Logo"
-                  width={30}
-                  height={30}
-                />
-              </div>
+        <div className="max-w-sm mx-auto border-t-2 border-l-2 border-r-2 border-b-4 p-10 rounded-3xl border-black">
+          <div className="flex flex-row justify-between gap-2">
+            {/* Slika */}
+            <Image
+              src="/images/janeDoe.jpg"
+              alt="Jane Doe"
+              width={100}
+              height={100}
+            />
+
+            {/* Tekst */}
+            <div className="flex flex-col justify-end">
+              <p className="font-semibold text-lg">Jane Doe</p>
+              <p className="text-sm text-gray-600">CEO and Founder</p>
             </div>
 
-            <hr className="my-4 border-t-4 border-gray-500" />
-
-            <p className="text-lg text-gray-700">
-              7+ years of experience in project management and team leadership.
-              Strong organizational and communication skills.
-            </p>
+            {/* Logo */}
+            <div className="flex self-start">
+              <Image src="/images/in.jpg" alt="Logo" width={30} height={30} />
+            </div>
           </div>
-          <div className="max-w-sm mx-auto sm border-t-2 border-l-2 border-r-2 border-b-4 p-10 rounded-3xl border-black">
-            <div className="flex flex-row items-center justify-between gap-2 ">
-              <Image
-                src="/images/janeDoe.jpg"
-                alt="Jane Doe"
-                width={100}
-                height={100}
-              />
 
-              <div className="flex flex-col justify-end">
-                <p className="font-semibold text-lg ">Jane Doe</p>
-                <p className="text-sm text-gray-600 ">CEO and Founder</p>
-              </div>
+          <hr className="my-4 border-t-4 border-gray-500" />
 
-              <div className="">
-                <Image
-                  src="/images/janeDoe.jpg"
-                  alt="Logo"
-                  width={30}
-                  height={30}
-                />
-              </div>
+          <p className="text-lg text-gray-700">
+            7+ years of experience in project management and team leadership.
+            Strong organizational and communication skills.
+          </p>
+        </div>
+
+        <div className="max-w-sm mx-auto border-t-2 border-l-2 border-r-2 border-b-4 p-10 rounded-3xl border-black">
+          <div className="flex flex-row justify-between gap-2">
+            {/* Slika */}
+            <Image
+              src="/images/janeDoe.jpg"
+              alt="Jane Doe"
+              width={100}
+              height={100}
+            />
+
+            {/* Tekst */}
+            <div className="flex flex-col justify-end">
+              <p className="font-semibold text-lg">Jane Doe</p>
+              <p className="text-sm text-gray-600">CEO and Founder</p>
             </div>
 
-            <hr className="my-4 border-t-4 border-gray-500" />
-
-            <p className="text-lg text-gray-700">
-              7+ years of experience in project management and team leadership.
-              Strong organizational and communication skills.
-            </p>
+            {/* Logo */}
+            <div className="flex self-start">
+              <Image src="/images/in.jpg" alt="Logo" width={30} height={30} />
+            </div>
           </div>
 
-          <div className="max-w-sm mx-auto border-t-2 border-l-2 border-r-2 border-b-4 p-10 rounded-3xl border-black">
-            <div className="flex flex-row items-center justify-between gap-2">
-              <Image
-                src="/images/janeDoe.jpg"
-                alt="Jane Doe"
-                width={100}
-                height={100}
-              />
+          <hr className="my-4 border-t-4 border-gray-500" />
 
-              <div className="flex flex-col justify-end">
-                <p className="font-semibold text-lg ">Jane Doe</p>
-                <p className="text-sm text-gray-600 ">CEO and Founder</p>
-              </div>
+          <p className="text-lg text-gray-700">
+            7+ years of experience in project management and team leadership.
+            Strong organizational and communication skills.
+          </p>
+        </div>
 
-              <div className="">
-                <Image
-                  src="/images/janeDoe.jpg"
-                  alt="Logo"
-                  width={30}
-                  height={30}
-                />
-              </div>
+        <div className="max-w-sm mx-auto border-t-2 border-l-2 border-r-2 border-b-4 p-10 rounded-3xl border-black">
+          <div className="flex flex-row justify-between gap-2">
+            {/* Slika */}
+            <Image
+              src="/images/janeDoe.jpg"
+              alt="Jane Doe"
+              width={100}
+              height={100}
+            />
+
+            {/* Tekst */}
+            <div className="flex flex-col justify-end">
+              <p className="font-semibold text-lg">Jane Doe</p>
+              <p className="text-sm text-gray-600">CEO and Founder</p>
             </div>
 
-            <hr className="my-4 border-t-4 border-gray-500" />
-
-            <p className="text-lg text-gray-700">
-              7+ years of experience in project management and team leadership.
-              Strong organizational and communication skills.
-            </p>
+            {/* Logo */}
+            <div className="flex self-start">
+              <Image src="/images/in.jpg" alt="Logo" width={30} height={30} />
+            </div>
           </div>
 
-          <div className="max-w-sm mx-auto border-t-2 border-l-2 border-r-2 border-b-4 p-10 rounded-3xl border-black">
-            <div className="flex flex-row items-center justify-between gap-2">
-              <Image
-                src="/images/janeDoe.jpg"
-                alt="Jane Doe"
-                width={100}
-                height={100}
-              />
+          <hr className="my-4 border-t-4 border-gray-500" />
 
-              <div className="flex flex-col justify-end">
-                <p className="font-semibold text-lg ">Jane Doe</p>
-                <p className="text-sm text-gray-600 ">CEO and Founder</p>
-              </div>
+          <p className="text-lg text-gray-700">
+            7+ years of experience in project management and team leadership.
+            Strong organizational and communication skills.
+          </p>
+        </div>
 
-              <div className="">
-                <Image
-                  src="/images/janeDoe.jpg"
-                  alt="Logo"
-                  width={30}
-                  height={30}
-                />
-              </div>
+        <div className="max-w-sm mx-auto border-t-2 border-l-2 border-r-2 border-b-4 p-10 rounded-3xl border-black">
+          <div className="flex flex-row justify-between gap-2">
+            {/* Slika */}
+            <Image
+              src="/images/janeDoe.jpg"
+              alt="Jane Doe"
+              width={100}
+              height={100}
+            />
+
+            {/* Tekst */}
+            <div className="flex flex-col justify-end">
+              <p className="font-semibold text-lg">Jane Doe</p>
+              <p className="text-sm text-gray-600">CEO and Founder</p>
             </div>
 
-            <hr className="my-4 border-t-4 border-gray-500" />
-
-            <p className="text-lg text-gray-700">
-              7+ years of experience in project management and team leadership.
-              Strong organizational and communication skills.
-            </p>
+            {/* Logo */}
+            <div className="flex self-start">
+              <Image src="/images/in.jpg" alt="Logo" width={30} height={30} />
+            </div>
           </div>
 
-          <div className="max-w-sm mx-auto border-t-2 border-l-2 border-r-2 border-b-4 p-10 rounded-3xl border-black">
-            <div className="flex flex-row items-center justify-between gap-2">
-              <Image
-                src="/images/janeDoe.jpg"
-                alt="Jane Doe"
-                width={100}
-                height={100}
-              />
+          <hr className="my-4 border-t-4 border-gray-500" />
 
-              <div className="flex flex-col justify-end">
-                <p className="font-semibold text-lg ">Jane Doe</p>
-                <p className="text-sm text-gray-600 ">CEO and Founder</p>
-              </div>
+          <p className="text-lg text-gray-700">
+            7+ years of experience in project management and team leadership.
+            Strong organizational and communication skills.
+          </p>
+        </div>
 
-              <div className="">
-                <Image
-                  src="/images/janeDoe.jpg"
-                  alt="Logo"
-                  width={30}
-                  height={30}
-                />
-              </div>
+        <div className="max-w-sm mx-auto border-t-2 border-l-2 border-r-2 border-b-4 p-10 rounded-3xl border-black">
+          <div className="flex flex-row justify-between gap-2">
+            {/* Slika */}
+            <Image
+              src="/images/janeDoe.jpg"
+              alt="Jane Doe"
+              width={100}
+              height={100}
+            />
+
+            {/* Tekst */}
+            <div className="flex flex-col justify-end">
+              <p className="font-semibold text-lg">Jane Doe</p>
+              <p className="text-sm text-gray-600">CEO and Founder</p>
             </div>
 
-            <hr className="my-4 border-t-4 border-gray-500" />
-
-            <p className="text-lg text-gray-700">
-              7+ years of experience in project management and team leadership.
-              Strong organizational and communication skills.
-            </p>
+            {/* Logo */}
+            <div className="flex self-start">
+              <Image src="/images/in.jpg" alt="Logo" width={30} height={30} />
+            </div>
           </div>
 
+          <hr className="my-4 border-t-4 border-gray-500" />
 
-
+          <p className="text-lg text-gray-700">
+            7+ years of experience in project management and team leadership.
+            Strong organizational and communication skills.
+          </p>
+        </div>
       </div>
     </div>
   );
