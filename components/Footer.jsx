@@ -51,7 +51,7 @@ const Footer = () => {
                             id="email"
                             type="email"
                             placeholder="Email"
-                            className="  p-3  border-2  placeholder:text-white border-white rounded-lg bg-[#292A32] focus:ring-2  focus:outline-none"
+                            className="w-fit  p-3  border-2  placeholder:text-white border-white rounded-lg bg-[#292A32] focus:ring-2  focus:outline-none"
                         />
                     </div>
 
@@ -60,7 +60,7 @@ const Footer = () => {
                             id="subscribe"
                             type="text"
                             placeholder="Subscribe to news"
-                            className=" p-3 border-2 placeholder:text-center  placeholder:text-black rounded-lg bg-[#B9FF66] focus:ring-2  focus:outline-none"
+                            className="w-fit p-3 border-2 placeholder:text-center  placeholder:text-black rounded-lg bg-[#B9FF66] focus:ring-2  focus:outline-none"
                         />
                     </div>
 
