@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -17,20 +18,28 @@ const Footer = () => {
           </ul>
 
           <ul className="lg:flex flex-row gap-6 underline hidden">
+            <Link href="https://x.com/" target="_blank">
             <Image
               src="/images/twitter.png"
               alt="Twitter"
               width={40}
               height={40}
               className="rounded-3xl "
+             
             />
+            </Link>
+           
+            <Link href="https://facebook.com/" target="_blank">
             <Image
-              src="/images/facebook.jpg"
+              src="/images/facebook.png"
               alt="Facebook"
-              width={40}
-              height={40}
+              width={45}
+              height={50}
               className="rounded-3xl "
             />
+            </Link>
+
+            <Link href="https://instagram.com/" target="_blank">
             <Image
               src="/images/instagram.jpg"
               alt="Instagram"
@@ -38,6 +47,7 @@ const Footer = () => {
               height={40}
               className="rounded-3xl "
             />
+           </Link>
           </ul>
         </div>
 
@@ -78,6 +88,7 @@ const Footer = () => {
           </div>
 
           <ul className="lg:hidden flex-row gap-6 justify-center underline flex mt-6">
+            <Link href="https://x.com/" target="_blank">
             <Image
               src="/images/twitter.png"
               alt="Twitter"
@@ -85,13 +96,20 @@ const Footer = () => {
               height={30}
               className="rounded-3xl "
             />
+            </Link>
+
+            <Link href="https://facebook.com/" target="_blank">
             <Image
-              src="/images/facebook.jpg"
+              src="/images/facebook.png"
               alt="Facebook"
               width={30}
               height={30}
               className="rounded-3xl "
             />
+            </Link>
+           
+
+            <Link href="https://instagram.com/" target="_blank">
             <Image
               src="/images/instagram.jpg"
               alt="Instagram"
@@ -99,6 +117,7 @@ const Footer = () => {
               height={30}
               className="rounded-3xl "
             />
+            </Link>
           </ul>
         </div>
 

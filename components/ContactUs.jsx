@@ -11,46 +11,19 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="max-w-screen-xl mx-auto lg:px-16 px-8 mt-8">
+    <div className="relative max-w-screen-xl mx-auto lg:px-16 px-8 mt-8">
       <div className="flex items-center gap-8 flex-col md:flex-row">
-        <h1 className="text-3xl font-medium bg-[#B9FF66] max-w-fit p-2 ">
+        <h1 className="text-3xl font-medium bg-[#B9FF66] max-w-fit p-2">
           Contact Us
         </h1>
         <p className="text-[16px] md:text-[18px] md:max-w-md max-w-sm text-center md:text-left mb-8 md:mb-0">
           Connect with Us: Let's Discuss Your Digital Marketing Needs
         </p>
       </div>
-      <div className="px-12 py-6 bg-[#F3F3F3] text-black mt-8 rounded-3xl gap-12">
-        <div className="flex flex-row my-4">
-          <label className="mr-4 text-[18px]">
-            <input
-              type="radio"
-              name="Greeting"
-              value="Say Hi"
-              checked={selectedOption === "Say Hi"}
-              onChange={handleChange}
-              className="mr-2 w-6 h-6 border-2 border-green-500 rounded-full bg-green-500"
-            />
-            Say Hi
-          </label>
 
-          <label className="text-[18px]">
-            <input
-              type="radio"
-              name="Greeting"
-              value="Get a quote"
-              checked={selectedOption === "Get a quote"}
-              onChange={handleChange}
-              className="mr-2 w-6 h-6 border-2 border-green-500 rounded-full checked:bg-green-500"
-            />
-            Get a quote
-          </label>
-        </div>
-
+      <div className="relative px-12 py-6 bg-[#F3F3F3] text-black mt-8 rounded-3xl gap-12 overflow-hidden">
         {/* Forma */}
-        <div className="mt-8 max-w-[500px]">
-
-        
+        <div className="mt-8 max-w-[500px] mx-auto lg:mx-0"> {/* Centriranje forme */}
           <form className="flex flex-col gap-6 justify-between">
             {/* Name */}
             <div>
@@ -94,15 +67,22 @@ const ContactUs = () => {
             {/* Submit Button */}
             <button
               type="submit"
-              className="bg-[#191A23] text-white py-3 rounded-xl font-medium  transition duration-200"
+              className="bg-[#191A23] text-white py-3 rounded-xl font-medium transition duration-200"
             >
               Send Message
             </button>
-
-            {/* <Image src="/images/contactUs.jpg" alt="Illustration" width={300} height={300} className="float-right" /> */}
           </form>
+        </div>
 
-          
+        {/* Ilustracija */}
+        <div className="hidden lg:block absolute right-[-300px] top-0 scale-80 -mt-6">
+          <Image
+            src="/images/Illustration.png"
+            alt="Illustration"
+            width={400}
+            height={600}
+            className="w-auto"
+          />
         </div>
       </div>
     </div>
