@@ -7,7 +7,7 @@ const Hero = () => {
       {/* Hero Section */}
       <div className="flex flex-col lg:flex-row items-center gap-8">
         {/* Leva strana (naslov, tekst i dugme) */}
-        <div className="w-full text-left">
+        <div className="w-full text-left lg:max-w-lg">
           <h1 className="font-medium text-[48px] pb-4">
             Navigating the digital landscape for success
           </h1>
@@ -19,7 +19,7 @@ const Hero = () => {
               alt="hero"
               width={800}
               height={600}
-              className="w-full max-w-xs sm:max-w-sm md:max-w-md object-contain"
+              className="w-full  md:max-w-xl object-contain"
             />
           </div>
 
@@ -38,7 +38,7 @@ const Hero = () => {
             alt="hero"
             width={800}
             height={600}
-            className="w-full  lg:max-w-md object-contain"
+            className="  lg:max-w-md object-contain"
           />
         </div>
       </div>
