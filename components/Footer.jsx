@@ -57,7 +57,7 @@ const Footer = () => {
 
           {/* 292A32 */}
 
-          <div className="max-w-screen-xl mx-auto px-12 py-12 flex justify-center md:justify-start items-center bg-[#292A32] text-white mt-8 rounded-3xl flex-wrap lg:flex-nowrap gap-6">
+          <div className="max-w-screen-xl mx-auto px-2 md:px-12 py-12 flex justify-center md:justify-start items-center bg-[#292A32] text-white mt-8 rounded-3xl flex-wrap lg:flex-nowrap gap-6">
             <div className="w-full md:w-auto">
               <input
                 id="email"
