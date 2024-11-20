@@ -15,8 +15,8 @@ const Services = () => {
       </div>
 
       <div className="py-12 grid grid-cols-1  lg:grid-cols-2 gap-8 ">
-        <div className="max-w-xl mx-auto border-t-2 border-l-2 border-r-2 border-b-4 p-10 bg-[#F3F3F3] rounded-3xl border-black">
-          <div className="">
+        <div className=" border-t-2 border-l-2 border-r-2 border-b-4 p-10 bg-[#F3F3F3] rounded-3xl border-black">
+          <div >
             <h1 className="text-left text-2xl font-medium bg-[#B9FF66] inline-block max-w-[200px] break-words">
               Search Engine Optimization
             </h1>
@@ -51,7 +51,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="max-w-xl mx-auto border-t-2 border-l-2 border-r-2 border-b-4 p-10 bg-[#B9FF66] rounded-3xl border-black">
+        <div className="border-t-2 border-l-2 border-r-2 border-b-4 p-10 bg-[#B9FF66] rounded-3xl border-black">
           <div className="">
             <h1 className="text-left text-2xl font-medium bg-white text-black inline-block max-w-[200px] break-words">
               Social Media Marketing
@@ -87,7 +87,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="max-w-xl mx-auto border-t-2 border-l-2 border-r-2 border-b-4 p-10 bg-[#191A23] rounded-3xl border-black">
+        <div className=" border-t-2 border-l-2 border-r-2 border-b-4 p-10 bg-[#191A23] rounded-3xl border-black">
           <div className="">
             <h1 className="text-left text-2xl font-medium bg-white text-black inline-block max-w-[200px] break-words">
               Pay-Per-Click Advertising
@@ -124,7 +124,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="max-w-xl mx-auto border-t-2 border-l-2 border-r-2 border-b-4 p-10 bg-[#F3F3F3] rounded-3xl border-black">
+        <div className=" border-t-2 border-l-2 border-r-2 border-b-4 p-10 bg-[#F3F3F3] rounded-3xl border-black">
           <div className="">
             <h1 className="text-left text-2xl font-medium bg-[#B9FF66] inline-block max-w-[200px] break-words">
               Email Marketing
@@ -160,7 +160,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="max-w-xl mx-auto border-t-2 border-l-2 border-r-2 border-b-4 p-10 bg-[#B9FF66] rounded-3xl border-black">
+        <div className=" border-t-2 border-l-2 border-r-2 border-b-4 p-10 bg-[#B9FF66] rounded-3xl border-black">
           <div className="">
             <h1 className="text-left text-2xl font-medium bg-white text-black inline-block max-w-[200px] break-words">
               Content Creation
@@ -196,7 +196,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="max-w-xl mx-auto border-t-2 border-l-2 border-r-2 border-b-4 p-10 bg-[#191A23] rounded-3xl border-black">
+        <div className=" border-t-2 border-l-2 border-r-2 border-b-4 p-10 bg-[#191A23] rounded-3xl border-black">
           <div className="">
             <h1 className="text-left text-2xl font-medium bg-[#B9FF66] inline-block max-w-[200px] break-words">
               Analytics And Tracking

@@ -16,8 +16,8 @@ export default function Home() {
     <div>
     <Header />
     <Hero />
-    <Services />
     <Logotypes />
+    <Services />
     <CaseStudies />
     <WorkingProcess />
     <Team />
