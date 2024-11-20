@@ -4,46 +4,60 @@ import Image from "next/image";
 import { useState } from "react";
 
 const FAQItem = ({ question, answer, number }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleOpen = () => {
-    setIsOpen(!isOpen);
-  };
-
-  return (
-    <div className={`px-12 pt-8 ${ isOpen ? "pb-6" : "pb-0"} cursor-pointer ${ isOpen ? "bg-[#B9FF66]" : "bg-[#F3F3F3]"  } mt-8 rounded-3xl border-t-2 border-l-2 border-r-2 border-b-4 border-black `}>
+    const [isOpen, setIsOpen] = useState(false);
+  
+    const toggleOpen = () => {
+      setIsOpen(!isOpen);
+    };
+  
+    return (
       <div
-        className={`flex justify-between items-center  flex-nowrap mb-8 gap-10`}
-        onClick={toggleOpen}
+        className={`px-10 py-8 cursor-pointer ${
+          isOpen ? "bg-[#B9FF66]" : "bg-[#F3F3F3]"
+        } mt-8 rounded-3xl border-t-2 border-l-2 border-r-2 border-b-4 border-black`}
       >
-        <span className="flex gap-4 items-center">
-          <h3 className="font-medium  text-5xl">{number}</h3>
-          <h3 className="font-medium  text-2xl">{question}</h3>
-        </span>
-
-        {isOpen ? (
-          <Image
-            src="/images/minus.png"
-            alt="Minus icon"
-            width={48}
-            height={48}
-            className="text-black"
-          />
-        ) : (
-          <Image
-            src="/images/plus.png"
-            alt="Plus icon"
-            width={48}
-            height={48}
-          />
+        {/* Header Section */}
+        <div
+          className="flex items-center justify-between flex-wrap gap-4"
+          onClick={toggleOpen}
+        >
+          {/* Left Section: Number and Question */}
+          <span className="flex gap-4 items-center">
+            <h3 className="font-medium text-4xl">{number}</h3>
+            <h3 className="font-medium text-lg md:text-xl">{question}</h3>
+          </span>
+  
+          {/* Right Section: Icon */}
+          {isOpen ? (
+            <Image
+              src="/images/minus.png"
+              alt="Minus icon"
+              width={32}
+              height={32}
+              className="ml-auto"
+            />
+          ) : (
+            <Image
+              src="/images/plus.png"
+              alt="Plus icon"
+              width={32}
+              height={32}
+              className="ml-auto"
+            />
+          )}
+        </div>
+  
+        {/* Line and Answer */}
+        {isOpen && (
+          <>
+            <div className="border-t border-black w-full my-4"></div>
+            <p className="text-sm md:text-base">{answer}</p>
+          </>
         )}
       </div>
-
-      {isOpen && <div className="block border-t border-black w-full mb-4 "></div>}
-      {isOpen && <p className="mt-2 ">{answer}</p>}
-    </div>
-  );
-};
+    );
+  };
+  
 
 const WorkingProcess = () => {
   const faqData = [
