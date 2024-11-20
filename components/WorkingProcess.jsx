@@ -13,7 +13,7 @@ const FAQItem = ({ question, answer, number }) => {
   return (
     <div className={`px-12 pt-8 ${ isOpen ? "pb-6" : "pb-0"} cursor-pointer ${ isOpen ? "bg-[#B9FF66]" : "bg-[#F3F3F3]"  } mt-8 rounded-3xl border-t-2 border-l-2 border-r-2 border-b-4 border-black `}>
       <div
-        className={`flex justify-between items-center  flex-nowrap mb-8 `}
+        className={`flex justify-between items-center  flex-nowrap mb-8 gap-10`}
         onClick={toggleOpen}
       >
         <span className="flex gap-4 items-center">
