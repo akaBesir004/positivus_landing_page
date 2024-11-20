@@ -15,36 +15,36 @@ const Testimonials = () => {
       </div>
       <div className="max-w-screen-xl mx-auto px-12 py-12  flex flex-col justify-around items-center bg-[#191A23] text-white mt-8 rounded-3xl flex-wrap lg:flex-nowrap gap-12">
         <div className="flex justify-between gap-8 flex-wrap lg:flex-nowrap">
-          {/* <div className="border-2  px-10 py-8 rounded-[2.25rem] border-[#B9FF66]">
-            <p>
-              "We have been working with Positivus for the past year and have
-              seen a significant increase in website traffic and leads as a
-              result of their efforts. The team is professional, responsive, and
-              truly cares about the success of our business. We highly recommend
-              Positivus to any company looking to grow their online presence."
-            </p>
-          </div> */}
+       
 
-          <div className="border-2 max-w-screen-3xl px-10 py-8 rounded-[2.25rem] border-[#B9FF66] items-center ">
-            <p>
-              "We have been working with Positivus for the past year and have
-              seen a significant increase in website traffic and leads as a
-              result of their efforts. The team is professional, responsive, and
-              truly cares about the success of our business. We highly recommend
-              Positivus to any company looking to grow their online presence."
-            </p>
-            
+          <div className=" text-center ">
+            <div className="border-2  px-10 py-8 rounded-[2.25rem] border-[#B9FF66] max-w-xl mb-4">
+              <p>
+                "We have been working with Positivus for the past year and have
+                seen a significant increase in website traffic and leads as a
+                result of their efforts. The team is professional, responsive,
+                and truly cares about the success of our business. We highly
+                recommend Positivus to any company looking to grow their online
+                presence."
+              </p>
+            </div>
+            <p className="text-[#B9FF66]">John Smith</p>
+            <p>Marketing Director at XYZ Corp</p>
           </div>
-          
 
-          <div className="border-2  px-10 py-8 rounded-[2.25rem] border-[#B9FF66]">
-            <p>
-              "We have been working with Positivus for the past year and have
-              seen a significant increase in website traffic and leads as a
-              result of their efforts. The team is professional, responsive, and
-              truly cares about the success of our business. We highly recommend
-              Positivus to any company looking to grow their online presence."
-            </p>
+          <div className=" text-center ">
+            <div className="border-2  px-10 py-8 rounded-[2.25rem] border-[#B9FF66] max-w-xl mb-4">
+              <p>
+                "We have been working with Positivus for the past year and have
+                seen a significant increase in website traffic and leads as a
+                result of their efforts. The team is professional, responsive,
+                and truly cares about the success of our business. We highly
+                recommend Positivus to any company looking to grow their online
+                presence."
+              </p>
+            </div>
+            <p className="text-[#B9FF66]">John Smith</p>
+            <p>Marketing Director at XYZ Corp</p>
           </div>
         </div>
 
