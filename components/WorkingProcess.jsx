@@ -16,7 +16,7 @@ const FAQItem = ({ question, answer, number }) => {
         className={`flex justify-between items-center  flex-nowrap mb-8 `}
         onClick={toggleOpen}
       >
-        <span className="flex gap-6 items-center">
+        <span className="flex gap-4 items-center">
           <h3 className="font-medium  text-5xl">{number}</h3>
           <h3 className="font-medium  text-2xl">{question}</h3>
         </span>
