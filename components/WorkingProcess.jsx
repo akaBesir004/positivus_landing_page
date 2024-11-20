@@ -18,7 +18,7 @@ const FAQItem = ({ question, answer, number }) => {
       >
         {/* Header Section */}
         <div
-          className="flex items-center justify-between flex-wrap gap-4"
+          className="flex items-center justify-between gap-4"
           onClick={toggleOpen}
         >
           {/* Left Section: Number and Question */}
